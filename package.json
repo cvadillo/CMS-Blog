@@ -4,7 +4,7 @@
   "description": "A blog site that allows users to post news, create a password, login, and render pages dynamically through handlebars",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"jest",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -24,8 +24,11 @@
   "homepage": "https://github.com/cvadillo/CMS-Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.2"
   },
