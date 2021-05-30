@@ -1,0 +1,129 @@
+:root {
+    --primary: #35465C;
+    --secondary: #DAE0E6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: var(--primary);
+    font-family: sans-serif
+}
+
+body {
+    background-color: var(--primary) !important;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: var(--primary);
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+h1 {
+    color: var(--secondary);
+    padding-left: 50%;
+}
+
+/* main */
+main {
+    width: 65%;
+    margin: 2% auto;
+}
+
+.dashboard-posts {
+    display: flex;
+    margin: 2% 0;
+}
+
+/* post */
+li {
+    list-style-type: none;
+    display: flex;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--secondary);
+}
+
+p.card-text {
+    padding: 2% 0 0 2%;    
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+a.comments {
+    padding-left: 5px;
+}
+
+.meta {
+    display: flex;
+    margin: 2% auto 0;
+}
+
+.login-container.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul.comments.list-group{
+    width: 80%;
+    margin: 5% auto 0;
+}
+
+/* add new post */
+.long-input {
+    width: 450px;
+}
+
+textarea {
+    width: 450px;
+    height: 300px;
+}
+
+/* dashboard posts */
+section.dashboard-posts {
+    margin-top: 3%;
+}
+
+.edit-button {
+    height: 100%;
+}
+
+
+/* edit post */
+textarea#comment-textarea {
+    height: 100px;
+    width: 300px;
+}
+
+.comment-form {
+    margin: 5% 0 5%;
+}
