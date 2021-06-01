@@ -23,19 +23,20 @@ Putting all of the learnings together this blog allows users to create an accoun
 
 ## Installation
 
-bcrypt 5.0.1",
-connect-session-sequelize 7.1.1
-dotenv 10.0.0
-express 4.17.1
-express-handlebars 5.3.2
-express-session 1.17.2
-mysql2 2.2.5
+Use NPM i in the terminal and make sure you install all dependencies.
+
+bcrypt 5.0.1, 
+connect-session-sequelize 7.1.1, 
+dotenv 10.0.0, 
+express 4.17.1, 
+express-handlebars 5.3.2, 
+express-session 1.17.2, 
+mysql2 2.2.5, 
 sequelize 6.6.2
 
 ## Usage
 
 Users can launch this application by navigating to the root folder and typing 'node server.js' or 'node app' on the local machine or users can vistit the following URL to see the live application: [Live Deploy](https://ancient-river-85939.herokuapp.com/)
-
 
 
 ## Contributing
